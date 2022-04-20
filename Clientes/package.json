@@ -1,0 +1,28 @@
+{
+  "name": "clientes",
+  "version": "1.0.0",
+  "description": "cadastro de clientes",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon .src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camimonteiro/Project_API_Bookstore.git"
+  },
+  "keywords": [
+    "api",
+    "crud"
+  ],
+  "author": "Amanda Vieira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camimonteiro/Project_API_Bookstore/issues"
+  },
+  "homepage": "https://github.com/camimonteiro/Project_API_Bookstore#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
