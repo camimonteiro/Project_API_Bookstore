@@ -1,26 +1,19 @@
 {
-  "name": "project_api_bookstore",
+  "name": "api-macabeana",
   "version": "1.0.0",
-  "description": "Projeto final do módulo 4 do Curso de WebDev FullStack da Resilia. Projeto do grupo 3: Camille Monteiro, Amanda Alexandre, Irena Costa e Davi Fernandes.",
-  "main": "index.js",
+  "description": "",
+  "main": "src/app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/camimonteiro/Project_API_Bookstore.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/camimonteiro/Project_API_Bookstore/issues"
-  },
-  "homepage": "https://github.com/camimonteiro/Project_API_Bookstore#readme",
   "dependencies": {
-    "body-parser": "^1.20.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.3"
-  }
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "sqlite": "^4.1.1",
+    "sqlite3": "^5.0.5"
+  },
+  "type": "module"
 }
