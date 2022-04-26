@@ -7,11 +7,21 @@ class Client {
         this.id = ++id;
         this.name = name;
         this.cpf = cpf;
-        this.email = email;
+        this.email = this.validateEmail(email);
         this.address = address;
     }
 
-    // Inserir validações: CPF e email
+    validateEmail(email) {
+        // Using regex to validate email form
+        if (email.match(
+            /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i
+        )) {
+            return email;
+        } else {
+            throw new Error("Incorrect email")
+        }
+    }
+    
 }
 
 module.exports = Client;

@@ -10,10 +10,12 @@ const clients = (app, db) => {
 
     // Search for individual client by name
     app.get('/clients/:name', (req, res) => {
-        // show client's name
         // create client search
+        const name = req.params.name;
+        const clientFoundIndex = db.clients.findIndex(client => client.name === name)
+        const clientFound = db.clients[clientFoundIndex]
         // don't forget automated testing
-        res.send(req.params.name)
+        res.send(clientFound)
     })
 
     // Insert new client
@@ -25,21 +27,45 @@ const clients = (app, db) => {
 
             // get new client info (example)
             const newClient = new Client(body.name, body.cpf, body.email, body.address);
-            
+
             // anexing to the emulated database
             db.clients.push(newClient);
 
             // Gives new user as a response
             res.json({"New user": newClient})
         } catch(error) {
-            res.json({"message": error.message})
+            res.json({"Error": error.message})
         }
         
     })
 
     // Update client
-    app.put('/clients', (req, res) => {
-        res.send("Atualizar usuario")
+    app.put('/clients:name', (req, res) => {
+        const body = req.body;
+        const name = req.params.name;
+         // search match for parameter
+         const indexClient = db.clients.findIndex(client => client.name == name)
+ 
+         if (indexClient > -1) {
+             // storages old client data for reference
+             const oldClientData = db.clients[indexClient];
+
+            // stores data from requisition; 
+            // if certain field doesn't exist, then it keeps the old data.
+             const newClientData = new Client (
+                 body.name || oldClientData.name,
+                 body.cpf || oldClientData.cpf,
+                 body.email || oldClientData.email,
+                 body.address || oldClientData.address,
+                 oldClientData.id
+             )
+
+             const updatedClient = db.clients.splice(indexClient,1,newClientData)
+
+             res.json({"Updated client": newClientData})
+         } else {
+             res.json({"Updated client": "Name not found"})
+         }
     })
 
     // Update client
