@@ -12,6 +12,7 @@ const clients = (app, db) => {
     app.get('/clients/:name', (req, res) => {
         // show client's name
         // create client search
+        // don't forget automated testing
         res.send(req.params.name)
     })
 
@@ -42,8 +43,20 @@ const clients = (app, db) => {
     })
 
     // Update client
-    app.delete('/clientes', (req, res) => {
-        res.send("Deletar usuario")
+    app.delete('/clients/:name', (req, res) => {
+        
+        // search match for parameter
+        const name = req.params.name;
+        const indexClient = db.clients.findIndex(client => client.name === name)
+
+        if (indexClient > -1) {
+            // deletes client from emulated database if index is found
+            const deletedCLient = db.clients.splice(indexClient, 1)
+            res.json({"Deleted client": deletedCLient})
+        } else {
+            res.json({"Deleted client": "Name not found"})
+        }
+        
     })
 }
 
