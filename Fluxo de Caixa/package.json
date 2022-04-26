@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "gateway de pagamentos utilizando recursos http.",
   "main": "index.js",
+"type" : "module",
   "scripts": {
     "start": "nodemon index.js"
   },
@@ -21,7 +22,7 @@
     "express-validator": "^2.20.8",
     "morgan": "^1.10.0",
     "mysql": "^2.11.1",
-    "nodemon": "^1.10.2",
+    "nodemon": "^1.19.4",
     "restify": "^4.1.1",
     "soap": "^0.16.0"
   }
