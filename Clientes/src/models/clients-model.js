@@ -1,17 +1,17 @@
 // Initializing id numbers
 let id = 0;
 
-class Cliente {
-    constructor(nome, cpf, email, endereco) {
+class Client {
+    constructor(name, cpf, email, address) {
         // Auto-generating client ID
         this.id = ++id;
-        this.nome = nome;
+        this.name = name;
         this.cpf = cpf;
         this.email = email;
-        this.endereco = endereco;
+        this.address = address;
     }
 
     // Inserir validações: CPF e email
 }
 
-module.exports = Cliente;
+module.exports = Client;
