@@ -40,7 +40,7 @@ const clients = (app, db) => {
     })
 
     // Update client
-    app.put('/clients:name', (req, res) => {
+    app.put('/clients/:name', (req, res) => {
         const body = req.body;
         const name = req.params.name;
          // search match for parameter
