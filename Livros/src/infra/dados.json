@@ -6,10 +6,10 @@
     "categoria": "Fantasia de Ação e Aventura",
     "edicao": "1ª Edição",
     "qtdPaginas": 208,
-    "id_Fornecedores": 2,
-    "nome_Fornecedores": "Editora Rocco",
+    "id_FK_Fornecedores": 2,
+    "nome_FK_Fornecedores": "Editora Rocco",
     "preco": 24.90,
-    "ISBN": 9788532530783,
+    "ISBN": "9788532530783",
     "avaliacao": 4.9 
 }
 
@@ -21,10 +21,10 @@
     "categoria": "Inspiradores",
     "edicao": "1ª Edição",
     "qtdPaginas": 576,
-    "id_Fornecedores": 2,
-    "nome_Fornecedores": "Editora Rocco",
+    "id_FK_Fornecedores": 2,
+    "nome_FK_Fornecedores": "Editora Rocco",
     "preco": 34.90,
-    "ISBN": 9788532529787,
+    "ISBN": "9788532529787",
     "avaliacao": 4.8
 }
 
@@ -36,10 +36,10 @@
     "categoria": "Motivacional Auto-Ajuda",
     "edicao": "1ª Edição",
     "qtdPaginas": 208,
-    "id_Fornecedores": 3,
-    "nome_Fornecedores": "Editora Sextante",
+    "id_FK_Fornecedores": 3,
+    "nome_FK_Fornecedores": "Editora Sextante",
     "preco": 29.90,
-    "ISBN": 9788543104331,
+    "ISBN": "9788543104331",
     "avaliacao": 4.8
 }
 
@@ -51,10 +51,10 @@
     "categoria": "Ficção Literária",
     "edicao": "1ª Edição",
     "qtdPaginas": 352,
-    "id_Fornecedores": 1,
-    "nome_Fornecedores": "Editora Antofágica",
+    "id_FK_Fornecedores": 1,
+    "nome_FK_Fornecedores": "Editora Antofágica",
     "preco": 85.46,
-    "ISBN": 9786586490473,
+    "ISBN": "9786586490473",
     "avaliacao": 4.9
 }
 
@@ -66,10 +66,10 @@
     "categoria": "Clássicos de Ficção",
     "edicao": "1ª Edição",
     "qtdPaginas": 456,
-    "id_Fornecedores": 1,
-    "nome_Fornecedores": "Editora Antofágica",
+    "id_FK_Fornecedores": 1,
+    "nome_FK_Fornecedores": "Editora Antofágica",
     "preco": 62.28,
-    "ISBN": 9786586490305,
+    "ISBN": "9786586490305",
     "avaliacao": 4.9
 }
 
@@ -81,10 +81,10 @@
     "categoria": "Gestão e Liderança",
     "edicao": "1ª Edição",
     "qtdPaginas": 256,
-    "id_Fornecedores": 3,
-    "nome_Fornecedores": "Editora Sextante",
+    "id_FK_Fornecedores": 3,
+    "nome_FK_Fornecedores": "Editora Sextante",
     "preco": 22.40,
-    "ISBN": 9788543107165,
+    "ISBN": "9788543107165",
     "avaliacao": 4.7
 }
 
@@ -96,10 +96,10 @@
     "categoria": "Ficção sobre Questões sociais e familiares para Adolescentes e Jovens Adultos",
     "edicao": "1ª Edição",
     "qtdPaginas": 288,
-    "id_Fornecedores": 2,
-    "nome_Fornecedores": "Editora Rocco",
+    "id_FK_Fornecedores": 2,
+    "nome_FK_Fornecedores": "Editora Rocco",
     "preco": 27.90,
-    "ISBN": 9786555320695,
+    "ISBN": "9786555320695",
     "avaliacao": 4.7
 }
 
@@ -111,10 +111,10 @@
     "categoria": "Clássicos de Ficção",
     "edicao": "1ª Edição",
     "qtdPaginas": 232,
-    "id_Fornecedores": 1,
-    "nome_Fornecedores": "Editora Antofágica",
+    "id_FK_Fornecedores": 1,
+    "nome_FK_Fornecedores": "Editora Antofágica",
     "preco": 62.90,
-    "ISBN": 9786580210008,
+    "ISBN": "9786580210008",
     "avaliacao": 4.7
 }
 
@@ -126,10 +126,10 @@
     "categoria": "Motivacional Auto-Ajuda",
     "edicao": "1ª Edição",
     "qtdPaginas": 208,
-    "id_Fornecedores": 3,
-    "nome_Fornecedores": "Editora Sextante",
+    "id_FK_Fornecedores": 3,
+    "nome_FK_Fornecedores": "Editora Sextante",
     "preco": 22.67,
-    "ISBN": 9788543101873,
+    "ISBN": "9788543101873",
     "avaliacao": 4.7
 }
 
@@ -141,9 +141,9 @@
     "categoria": "Contos Literatura e Ficção",
     "edicao": "1ª Edição",
     "qtdPaginas": 656,
-    "id_Fornecedores": 3,
-    "nome_Fornecedores": "Editora Sextante",
+    "id_FK_Fornecedores": 3,
+    "nome_FK_Fornecedores": "Editora Sextante",
     "preco": 59.99,
-    "ISBN": 9788532530240,
+    "ISBN": "9788532530240",
     "avaliacao": 4.9
 }
