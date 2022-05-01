@@ -1,5 +1,5 @@
 class Livros {
-    constructor(titulo, autor, sinopse, categoria, edicao, qtdPaginas, id_FK_Fornecedores, nome_FK_Fornecedores, preco, isbn, avaliacao){
+    constructor(titulo, autor, sinopse, categoria, edicao, qtdPaginas, id_FK_Fornecedores, nome_FK_Fornecedores, preco, ISBN, avaliacao){
         this.titulo = titulo;
         this.autor = autor;
         this.sinopse = sinopse;
@@ -9,15 +9,15 @@ class Livros {
         this.id_FK_Fornecedores = id_FK_Fornecedores;
         this.nome_FK_Fornecedores = nome_FK_Fornecedores; 
         this.preco = preco;
-        this.isbn = this.validarISBN(isbn);
+        this.ISBN = this.validarISBN(ISBN);
         this.avaliacao = avaliacao;
     }
 
-    validarISBN(isbn){
-        if (isbn.length === 13 ){
-            return isbn;
+    validarISBN(ISBN){
+        if (ISBN.length >= 12){
+            return ISBN;
         } else {
-            throw new Error('ISBN code must have 13 numbers')
+            throw new Error('O código ISBN deve ter 13 números')
         }
     }
 }
