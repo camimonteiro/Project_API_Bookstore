@@ -1,9 +1,15 @@
 const express = require ('express');
+const cors = require('cors');
 const app = express();
 const port = 3000;
 
 // Body-parse
 app.use(express.json());
+app.use(cors());
+
+app.post('/livro', function (req, resp, next) {
+    resp.json({msg: 'This is CORS-enabled for all origins!'})
+  })
 
 // Importando Controller
 const livrosController = require('./controller/livros.controller');
