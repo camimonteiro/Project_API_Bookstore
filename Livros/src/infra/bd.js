@@ -1,5 +1,5 @@
 const bd = {
-    "livros": []
+    "livro": []
 }
 
 module.exports = bd;

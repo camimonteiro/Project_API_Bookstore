@@ -12,7 +12,7 @@ const livrosController = require('./controller/livros.controller');
 const livrosModel = require('./model/livros.model');
 
 // Importando o banco de dados criado
-const bd = require('./infra/bd');
+const bd = require('./infra/sqlite-db');
 
 livrosController(app, bd);
 
