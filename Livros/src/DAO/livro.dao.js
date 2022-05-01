@@ -30,7 +30,7 @@ class LivroDAO {
     inserirLivros(newLivro) {
         return new Promise((resolve, reject) => {
             this.bd.run(`INSERT INTO LIVROS (TITULO, AUTOR, SINOPSE, CATEGORIA, EDICAO, QTDPAGINAS, ID_FK_FORNECEDORES, NOME_FK_FORNECEDORES, PRECO, ISBN, AVALIACAO) VALUES (?,?,?,?,?,?,?,?,?,?,?)`,
-                [newLivro.titulo, newLivro.autor, newLivro.sinopse, newLivro.categoria, newLivro.edicao, newLivro.qtdPaginas, newLivro.id_FK_Fornecedores, newLivro.nome_FK_Fornecedores, newLivro.preco, newLivro.isbn, newLivro.avaliacao], (error) => {
+                [newLivro.titulo, newLivro.autor, newLivro.sinopse, newLivro.categoria, newLivro.edicao, newLivro.qtdPaginas, newLivro.id_FK_Fornecedores, newLivro.nome_FK_Fornecedores, newLivro.preco, newLivro.ISBN, newLivro.avaliacao], (error) => {
                     if (error) {
                         reject('ERRO NA INSERÇÃO DE DADOS NO BANCO DE DADOS')
                     } else {
@@ -54,7 +54,8 @@ class LivroDAO {
 
     changeLivros(parametros) {
         return new Promise ((resolve, reject) => {
-            this.bd.run(`UPDATE LIVROS SET TITULO = ?, AUTOR = ?, SINOPSE = ?, CATEGORIA = ?, EDICAO = ?, QTDPAGINAS = ?, ID_FK_FORNECEDORES = ?, NOME_FK_FORNECEDORES = ?, PRECO = ?, ISBN = ?, AVALIACAO = ?`, parametros, (error) => {
+            console.log(parametros)
+            this.bd.run(`UPDATE LIVROS SET TITULO = ?, AUTOR = ?, SINOPSE = ?, CATEGORIA = ?, EDICAO = ?, QTDPAGINAS = ?, ID_FK_FORNECEDORES = ?, NOME_FK_FORNECEDORES = ?, PRECO = ?, ISBN = ?, AVALIACAO = ? WHERE ID = ?`, parametros, (error) => {
                 if (error) {
                     console.log(error)
                     reject (error);
