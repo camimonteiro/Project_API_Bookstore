@@ -7,14 +7,16 @@ const vendaSchema = new mongoose.Schema(
     Vendedor: {type: String, required: true},
     Cliente: {type: String, required: true},
     Datatime: {type: Number},
-    Price: {type: Number},
+    Preco: {type: Number},
     Autor: {type: String, required: true},
     Editora: { type: String, required: true},
-    Genêro: {type: String, required: true},
+    Categoria: {type: String, required: true},
     Idioma: {type: String, required: true},
     numeroPaginas: {type: Number},
     Ano: {type: Number},
-    Fornecedor: {type: String, required: true}
+    ISBN: {type: Number},
+    id_Fornecedores: {type: String, required: true},
+    Avaliação: {type: Number}
 }
 );
 
