@@ -3,88 +3,79 @@ const Livro = require ('../model/livros.model');
 const LivroDAO = require ('../DAO/livro.dao');
 
 const livro = (app, bd) => {
-  const InstLivroDAO = new LivroDAO (bd) 
-    
-  // verbo GET
-  app.get('/livro', function(req, resp) {
-    InstLivroDAO.listarLivros()
-    .then((answer)=>{
-      resp.json(answer)
-    }).catch((error)=>{
-      resp.json(error)
-    })
+  const InstLivroDAO = new LivroDAO (bd)
+   
+  // verbo POST (CRUD = CREATE)
+  app.post('/livro', (req, resp) => {
+    const body = req.body;
+    const newLivro = new Livro (body.titulo, body.autor, body.sinopse, body.categoria, body.edicao, body.qtdPaginas, body.id_FK_fornecedores, body.nome_FK_Fornecedores, body.preco, body.isbn, body.avaliacao);
+    const data = async() => {
+      try {
+        const livros = await InstLivroDAO.inserirLivros(newLivro)
+        resp.send(livros)
+      } catch (error) {
+        resp.send(error)
+      }
+    }
+    data()
+  })
+
+  // verbo GET (CRUD = READ)
+  app.get('/livro', (req, resp) => {
+    const data = async() => {
+      try {
+        const livros = await InstLivroDAO.listarLivros();
+        resp.send(livros)
+      } catch (error) {
+        resp.send(error)
+      }
+    }
+    data()
+  })
+
+  // verbo GET (CRUD = READ) com filtro pelo ID
+  app.get('/livro/:id', (req, resp) => {
+    const data = async() => {
+      try {
+        const livros = await InstLivroDAO.listarLivrosID(req.params.id);
+        resp.send(livros)
+      } catch (error) {
+        resp.send (error)
+      }
+    }
+    data()
   })
     
-  // verbo POST
-  app.post('/livro', function(req, resp) {
-    InstLivroDAO.inserirLivros()
-    .then((answer)=>{
-      resp.json(answer)
-    }).catch((error)=>{
-      resp.json(error)
-    })
+  // verbo PUT (CRUD = UPDATE)
+  app.put('/livro/:id', (req, resp) => {
+    const body = req.body;
+    const id = req.params.id;
+    const parametros = [body.titulo, body.autor, body.sinopse, body.categoria, body.edicao, body.qtdPaginas, body.id_FK_fornecedores, body.nome_FK_Fornecedores, body.preco, body.isbn, body.avaliacao, id]
+    const data = async() => {
+      try {
+        const livros = await InstLivroDAO.changeLivros(parametros);
+        resp.send(livros)
+      } catch (error) {
+        resp.send(error)
+      }
+    }
+    data()
   })
-      
-    // // para filtrar pelos parâmetros (/user/:name/:....)
-    // app.get('/user/:name/:lastName/:age/:email', function (req, resp) {
-    //   resp.json({"name": req.params.name,
-    //     "lastName": req.params.lastName,
-    //     "age": req.params.age,
-    //     "email": req.params.email
-    //   })
-    // })
 
-    // app.post('/user/:name/:lastName/:age/:email', function (req, resp) {
-    //   const name = req.params.name;
-    //   const lastName = req.params.lastName;
-    //   const age = req.params.age;
-    //   const email = req.params.email;
-    //   bd.user.push(req.params)
-    //   resp.send(`O nome do usuário é ${name} ${lastName}. O usuário tem ${age} anos e seu e-mail é ${email}`)
-    // })
-
-    // // verbo DELETE
-    // app.delete('/user/:name/:lastName', function (req, resp) {
-    //   const nameParams = req.params.name;
-    //   const lastNameParams = req.params.lastName;
-    //   const indexUser = bd.user.findIndex(user => user.name == nameParams && user.lastName == lastNameParams);
-
-    //   if(indexUser > -1){
-    //     const userDeleted = bd.user.splice(indexUser, 1)
-    //     resp.json({'UserDeleted': userDeleted})
-    //   } else { 
-    //     resp.json('User not find')
-    //   }
-
-    // })
+  // verbo DELETE (CRUD = DELETE)
+  app.delete('/livro/:id', (req, resp) => {
+    const data = async() => {
+      try {
+        const livros = await InstLivroDAO.deleteLivros(req.params.id);
+        resp.send(livros)
+      } catch (error) {
+        resp.send(error)
+      }
+    }
+    data()
+  })
     
-    // // Método de UPDATE
-    // app.put('/user/:name/:lastName', function (req, resp) {
-    //   const nameParams = req.params.name;
-    //   const lastNameParams = req.params.lastName;
-    //   const body = req.body;
-    //   const indexUser = bd.user.findIndex(user => user.name == nameParams && user.lastName == lastNameParams);
-
-    //   if(indexUser > -1){
-    //     const oldUserData = bd.user[indexUser];
-    //     const newUserData = new User(
-    //       body.name || oldUserData.name,
-    //       body.lastName || oldUserData.lastName,
-    //       body.age || oldUserData.age,
-    //       body.email || oldUserData.email,
-    //       body.password || oldUserData.password,
-    //       oldUserData.id
-    //       );
-    //     const change = bd.user.splice(indexUser, 1, newUserData);
-
-    //     resp.json({
-    //       'UserChanged': newUserData,
-    //       'UserDeleted': change
-    //     })
-    //   } else { 
-    //     resp.json('User not find')
-    //   }
-    // })
+    
 }
 
 module.exports = livro;
