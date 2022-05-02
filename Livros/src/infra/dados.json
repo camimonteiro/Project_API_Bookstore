@@ -1,0 +1,149 @@
+{
+    "id": 1,
+    "titulo": "Harry Potter e a Pedra Filosofal",
+    "autor": "J.K Rowling",
+    "sinopse": "Harry Potter é um garoto cujos pais, feiticeiros, foram assassinados por um poderosíssimo bruxo quando ele ainda era um bebê. Ele foi levado, então, para a casa dos tios que nada tinham a ver com o sobrenatural. Pelo contrário. Até os 10 anos, Harry foi uma espécie de gata borralheira: maltratado pelos tios, herdava roupas velhas do primo gorducho, tinha óculos remendados e era tratado como um estorvo. No dia de seu aniversário de 11 anos, entretanto, ele parece deslizar por um buraco sem fundo, como o de Alice no país das maravilhas, que o conduz a um mundo mágico. Descobre sua verdadeira história e seu destino: ser um aprendiz de feiticeiro até o dia em que terá que enfrentar a pior força do mal, o homem que assassinou seus pais. O menino de olhos verde, magricela e desengonçado, tão habituado à rejeição, descobre, também, que é um herói no universo dos magos. Potter fica sabendo que é a única pessoa a ter sobrevivido a um ataque do tal bruxo do mal e essa é a causa da marca em forma de raio que ele carrega na testa. Ele não é um garoto qualquer, ele sequer é um feiticeiro qualquer ele é Harry Potter, símbolo de poder, resistência e um líder natural entre os sobrenaturais. A fábula, recheada de fantasmas, paredes que falam, caldeirões, sapos, unicórnios, dragões e gigantes, não é, entretanto, apenas um passatempo.",
+    "categoria": "Fantasia de Ação e Aventura",
+    "edicao": "1ª Edição",
+    "qtdPaginas": 208,
+    "id_FK_Fornecedores": 2,
+    "nome_FK_Fornecedores": "Editora Rocco",
+    "preco": 24.90,
+    "ISBN": "9788532530783",
+    "avaliacao": 4.9 
+}
+
+{
+    "id": 2,
+    "titulo": "Mulheres que correm com os lobos",
+    "autor": "Clarissa Pinkola Estés",
+    "sinopse": "Os lobos foram pintados com um pincel negro nos contos de fada e até hoje assustam meninas indefesas. Mas nem sempre eles foram vistos como criaturas terríveis e violentas. Na Grécia antiga e em Roma, o animal era o consorte de Artemis, a caçadora, e carinhosamente amamentava os heróis. A analista junguiana Clarissa Pinkola Estés acredita que na nossa sociedade as mulheres vêm sendo tratadas de uma forma semelhante. Ao investigar o esmagamento da natureza instintiva feminina, Clarissa descobriu a chave da sensação de impotência da mulher moderna. Seu livro, Mulheres que correm com os lobos, ficou durante um ano na lista de mais vendidos nos Estados Unidos. Abordando 19 mitos, lendas e contos de fada, como a história do patinho feio e do Barba-Azul, Estés mostra como a natureza instintiva da mulher foi sendo domesticada ao longo dos tempos, num processo que punia todas aquelas que se rebelavam. Segundo a analista, a exemplo das florestas virgens e dos animais silvestres, os instintos foram devastados e os ciclos naturais femininos transformados à força em ritmos artificiais para agradar aos outros. Mas sua energia vital, segundo ela, pode ser restaurada por escavações psíquico-arqueológicas' nas ruínas do mundo subterrâneo. Até o ponto em que, emergindo das grossas camadas de condicionamento cultural, apareça a corajosa loba que vive em cada mulher. Clássico dos estudos sobre o sagrado feminino e o feminismo, o livro é o primeiro de uma série de longsellers da Rocco a ganhar edição com novo projeto gráfico e capa dura.'",
+    "categoria": "Inspiradores",
+    "edicao": "1ª Edição",
+    "qtdPaginas": 576,
+    "id_FK_Fornecedores": 2,
+    "nome_FK_Fornecedores": "Editora Rocco",
+    "preco": 34.90,
+    "ISBN": "9788532529787",
+    "avaliacao": 4.8
+}
+
+{
+    "id": 3,
+    "titulo": "A coragem de ser imperfeito",
+    "autor": "Brené Brown",
+    "sinopse": "PRIMEIRO LUGAR NA LISTA DO THE NEW YORK TIMES. Como aceitar a própria vulnerabilidade, vencer a vergonha e ousar ser quem você é. Brené Brown ousou tocar em assuntos que costumam ser evitados por causarem grande desconforto. Sua palestra a respeito de vulnerabilidade, medo, vergonha e imperfeição já teve mais de 25 milhões de visualizações. Viver é experimentar incertezas, riscos e se expor emocionalmente. Mas isso não precisa ser ruim. Como mostra Brené Brown, a vulnerabilidade não é uma medida de fraqueza, mas a melhor definição de coragem. Quando fugimos de emoções como medo, mágoa e decepção, também nos fechamos para o amor, a aceitação e a criatividade. Por isso, as pessoas que se defendem a todo custo do erro e do fracasso acabam se frustrando e se distanciando das experiências marcantes que dão significado à vida. Por outro lado, as que se expõem e se abrem para coisas novas são mais autênticas e realizadas, ainda que se tornem alvo de críticas e de inveja. É preciso lidar com os dois lados da moeda para se ter uma vida plena. Em sua pesquisa pioneira sobre vulnerabilidade, Brené Brown concluiu que fazemos uso de um verdadeiro arsenal contra a vergonha de nos expor e a sensação de não sermos bons o bastante, e que existem estratégias eficazes para serem usadas nesse “desarmamento”. Neste livro, ela apresenta suas descobertas e estratégias bem-sucedidas, toca em feridas delicadas e provoca grandes insights, desafiando-nos a mudar a maneira como vivemos e nos relacionamos.",
+    "categoria": "Motivacional Auto-Ajuda",
+    "edicao": "1ª Edição",
+    "qtdPaginas": 208,
+    "id_FK_Fornecedores": 3,
+    "nome_FK_Fornecedores": "Editora Sextante",
+    "preco": 29.90,
+    "ISBN": "9788543104331",
+    "avaliacao": 4.8
+}
+
+{
+    "id": 4,
+    "titulo": "Macunaíma, O Herói Sem Nenhum Caráter",
+    "autor": "Mario de Andrade",
+    "sinopse": "No fundo da floresta amazônica, ao som do murmurejo do rio Uriracoera, nasce Macunaíma, o herói do povo brasileiro. Esta edição da Antofágica conta com apresentação de Antonio Fagundes, e ilustrações de Camille Sproesser, posfácios de Tom Zé e Cristino Wapichana, entre outros. Publicado pela primeira vez em 1928, Macunaíma o pinta um Brasil antropofágico de si mesmo, baseado em mitos de povos indígenas da região amazônica e com um extenso vocabulário regional.Em comemoração ao centenário da Semana de Arte Moderna de 1922, a Antofágica revisita essa obra-prima da literatura brasileira. Com ilustrações de Camille Sproesser e apresentação de Antonio Fagundes, a edição também conta com posfácios do músico e compositor Tom Zé, do historiador e doutor em Literatura Frederico Coelho (PUC-RJ), das antropólogas Virgínia Amaral e Aparecida Vilaça (Museu Nacional – UFRJ) e do premiado músico, escritor e diretor indígena Cristino Wapichana. EXTRA: Ao escanear o QR Code da cinta, o leitor tem acesso a duas videoaulas sobre o livro com Pedro Fragelli, doutor em Letras pela USP com pesquisa de pós-doutorado em Mário de Andrade. A primeira aula deve ser vista em um momento anterior à leitura, e a segunda, após a experiência do livro.",
+    "categoria": "Ficção Literária",
+    "edicao": "1ª Edição",
+    "qtdPaginas": 352,
+    "id_FK_Fornecedores": 1,
+    "nome_FK_Fornecedores": "Editora Antofágica",
+    "preco": 85.46,
+    "ISBN": "9786586490473",
+    "avaliacao": 4.9
+}
+
+{
+    "id": 5,
+    "titulo": "Orgulho e Preconceito",
+    "autor": "Jane Austen",
+    "sinopse": "Vítima de suas próprias imperfeições e preconceitos, Elizabeth é uma das personagens mais fascinantes da literatura. Inteligente e observadora, ela encarna uma versão alternativa do feminino de sua época: uma mulher que não se conforma às regras do jogo social, mas que as questiona a todo instante.A nossa edição, traduzida por Carol Chiovatto, traz ilustrações exclusivas de Jess Vieira e apresentação da escritora Bruna Vieira. Nos posfácios, Sandra Guardini, professora titular de Literatura Inglesa e Comparada (USP), oferece um panorama da vida e de obra de Jane Austen, e Jaqueline Sant’ana, doutoranda em Sociologia (UFRJ), analisa a autora sob a perspectiva da chamada “literatura de mulherzinha”. Isadora Sinay, formada em Cinema e doutora em Literatura (USP), faz uma análise das representações audiovisuais da obra da autora.Extra: Ao escanear o QR Code da cinta com seu smartphone, você tem acesso a duas videoaulas da acadêmica Sandra Guardini para enriquecer sua leitura.",
+    "categoria": "Clássicos de Ficção",
+    "edicao": "1ª Edição",
+    "qtdPaginas": 456,
+    "id_FK_Fornecedores": 1,
+    "nome_FK_Fornecedores": "Editora Antofágica",
+    "preco": 62.28,
+    "ISBN": "9786586490305",
+    "avaliacao": 4.9
+}
+
+{
+    "id": 6,
+    "titulo": "SCRUM: a arte de fazer o dobro do trabalho na metade do tempo",
+    "autor": "Jeff Sutherland e JJ Sutherland",
+    "sinopse": "Conheça o método que está revolucionando a produtividade das empresas.“Repleto de histórias empolgantes e exemplos reais. O método de gerenciamento de projetos conhecido como Scrum deve ser a ferramenta de produtividade mais largamente empregada entre as empresas de alta tecnologia. Jeff Sutherland tem sido brilhantemente bem-sucedido em sua missão de pôr esse recurso nas mãos de mais negócios em todo o mundo.” – Eric Ries, autor de A startup enxuta. O mundo vem sofrendo um processo de mudança contínuo cada vez mais acelerado. Para quem acredita que deve haver uma maneira mais eficiente de fazer as coisas, Scrum é um livro instigante sobre o processo de liderança e gestão que está transformando a maneira como vivemos. Instituições que adotaram o método Scrum já registraram ganhos de produtividade de até 1.200%. É por causa dele que a Amazon pode acrescentar um novo recurso em seu site todos os dias, que o Red River Army Depot, no Texas, consegue lançar utilitários blindados 39 vezes mais rápido e que o FBI finalmente criou um enorme banco de dados de rastreamento de terroristas. Com base em insights de artes marciais, tomadas de decisão judicial, combate aéreo avançado, robótica e muitas outras disciplinas, o método Scrum é prático e fascinante. Mas a razão mais importante para ler este livro é que ele pode ajudar você a alcançar o que os outros consideram inatingível – seja inventando uma tecnologia pioneira, planejando um novo sistema educacional, viabilizando um caminho para ajudar os mais pobres ou mesmo estabelecendo os alicerces para a sua família prosperar.",
+    "categoria": "Gestão e Liderança",
+    "edicao": "1ª Edição",
+    "qtdPaginas": 256,
+    "id_FK_Fornecedores": 3,
+    "nome_FK_Fornecedores": "Editora Sextante",
+    "preco": 22.40,
+    "ISBN": "9788543107165",
+    "avaliacao": 4.7
+}
+
+{
+    "id": 7,
+    "titulo": "As vantagens de ser invisível",
+    "autor": "Stephen Chbosky",
+    "sinopse": "Livro de estreia do roteirista norte-americano Stephen Chbosky, As vantagens de ser invisível sai no Brasil pela editora Rocco e é um Best-seller da Veja. Ao mesmo tempo engraçado e atordoante, o livro reúne as cartas de Charlie, um adolescente de quem pouco se sabe – a não ser pelo que ele conta ao amigo nessas correspondências –, que vive entre a apatia e o entusiasmo, tateando territórios inexplorados, encurralado entre o desejo de viver a própria vida e ao mesmo tempo fugir dela. As dificuldades do ambiente escolar, muitas vezes ameaçador, as descobertas dos primeiros encontros amorosos, os dramas familiares, as festas alucinantes e a eterna vontade de se sentir "infinito" ao lado dos amigos são temas que enchem de alegria e angústia a cabeça do protagonista em fase de amadurecimento. Stephen Chbosky capta com emoção esse vaivém dos sentidos e dos sentimentos e constrói uma narrativa vigorosa costurada pelas cartas de Charlie endereçadas a um amigo que não se sabe se real ou imaginário. Íntimas, hilariantes, às vezes devastadoras, as cartas mostram um jovem em confronto com a sua própria história presente e futura, ora como um personagem invisível à espreita por trás das cortinas, ora como o protagonista que tem que assumir seu papel no palco da vida. Um jovem que não se sabe quem é ou onde mora. Mas que poderia ser qualquer um, em qualquer lugar do mundo.",
+    "categoria": "Ficção sobre Questões sociais e familiares para Adolescentes e Jovens Adultos",
+    "edicao": "1ª Edição",
+    "qtdPaginas": 288,
+    "id_FK_Fornecedores": 2,
+    "nome_FK_Fornecedores": "Editora Rocco",
+    "preco": 27.90,
+    "ISBN": "9786555320695",
+    "avaliacao": 4.7
+}
+
+{
+    "id": 8,
+    "titulo": "A Metamorfose",
+    "autor": "Franz Kafka",
+    "sinopse": "Um dos maiores clássicos da literatura mundial, agora em nova tradução do alemão e com mais de 90 ilustrações do artista Lourenço Mutarelli. Essa pequena novela, lançada em 1915, revolucionou a literatura e as artes. De forma agressiva, acessível e inovadora, tornou-se um dos mais importantes e difundidos textos da história.",
+    "categoria": "Clássicos de Ficção",
+    "edicao": "1ª Edição",
+    "qtdPaginas": 232,
+    "id_FK_Fornecedores": 1,
+    "nome_FK_Fornecedores": "Editora Antofágica",
+    "preco": 62.90,
+    "ISBN": "9786580210008",
+    "avaliacao": 4.7
+}
+
+{
+    "id": 9,
+    "titulo": "Atenção Plena: Mindfulness",
+    "autor": "Dr. Danny Penman",
+    "sinopse": "Deseja uma vida mais plena e feliz? Recomendo que pratique o método que vai encontrar neste livro. Os autores apresentam técnicas cientificamente fundamentadas que você pode usar para atravessar os períodos de crise ou para enfrentar os desafios do dia a dia. – Daniel Goleman, autor de Foco e Inteligência emocional. Com mais de 300 mil exemplares vendidos, esse livro e os áudios de meditação disponibilizados apresentam uma série de práticas simples para expandir sua consciência e quebrar o ciclo de ansiedade, estresse, infelicidade e exaustão. Recomendado pelo Instituto Nacional de Excelência Clínica do Reino Unido, este método ajuda a trazer alegria e tranquilidade para sua vida, permitindo que você enfrente seus desafios com uma coragem renovada. Mais do que uma técnica de meditação, a atenção plena (ou mindfulness) é um estilo de vida que consiste em estar aberto à experiência presente, observando seus pensamentos sem julgamentos, críticas ou elucubrações. Ao tomar consciência daquilo que sente, você se torna capaz de identificar sentimentos nocivos antes que eles ganhem força e desencadeiem um fluxo de emoções negativas – que é o que faz você se sentir estressado, irritado e frustrado. Esse livro apresenta um curso de oito semanas com exercícios e meditações diárias que vão ajudá-lo a se libertar das pressões cotidianas, a se tornar mais compassivo consigo mesmo e a lidar com as dificuldades de forma mais tranquila e ponderada. Você descobrirá que a sensação de calma, liberdade e contentamento que tanto procura está sempre à sua disposição – a apenas uma respiração de distância. INCLUI LINKS PARA ÁUDIO DE MEDITAÇÃO",
+    "categoria": "Motivacional Auto-Ajuda",
+    "edicao": "1ª Edição",
+    "qtdPaginas": 208,
+    "id_FK_Fornecedores": 3,
+    "nome_FK_Fornecedores": "Editora Sextante",
+    "preco": 22.67,
+    "ISBN": "9788543101873",
+    "avaliacao": 4.7
+}
+
+{
+    "id": 10,
+    "titulo": "Todos os contos",
+    "autor": "Clarice Lispector",
+    "sinopse": "Dona de uma obra que cruza fronteiras geográficas e de gênero, Clarice Lispector é considerada atualmente uma das mais importantes escritoras do século XX. Nesta coletânea, que reúne pela primeira vez todos os contos da autora num único volume, organizada pelo biógrafo Benjamin Moser, é possível conhecer Clarice por inteiro, desde os primeiros escritos, ainda na adolescência, até as últimas linhas. Essencial para estudantes e pesquisadores, para fãs de Clarice Lispector e iniciantes na obra da escritora, Todos os contos foi lançado nos Estados Unidos em 2015, figurando na lista de livros mais importantes do ano do jornal The New York Times e colecionando importantes prêmios. Agora é a vez de os leitores brasileiros (re)descobrirem por completo esta contista prolífica e singular e seu planeta habitado por bichos, homens e sobretudo mulheres, que se revelam, nas mãos de Clarice, maravilhosos em meio à alegria e ao horror da existência.",
+    "categoria": "Contos Literatura e Ficção",
+    "edicao": "1ª Edição",
+    "qtdPaginas": 656,
+    "id_FK_Fornecedores": 3,
+    "nome_FK_Fornecedores": "Editora Sextante",
+    "preco": 59.99,
+    "ISBN": "9788532530240",
+    "avaliacao": 4.9
+}
