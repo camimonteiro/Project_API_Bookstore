@@ -7,14 +7,14 @@ class VendaController {
             res.status(200).json(vendas)
     })}
         //listar vendas por id 
-    static listarVendasId = (req, res) => {
-        const id = req.params.id;
-        vendas.findById(id, (err, vendas) => {
-            if(err) {
-                res.status(400).send({message: `${err.message} - Livro não localizado, verifique o ID`})
-            } else{
-                res.status(200).send(vendas);
-            }
+        static listarVendasId = (req, res) => {
+            const id = req.params.id;
+        
+            autores.findById(id, (err, vendas) => {
+              if(err) {
+                res.status(400).send({message: `${err.message} - Id do Autor não localizado.`})
+              } else {
+                res.status(200).send(vendas);}
             })
         }
             //cadastrar vendas 
