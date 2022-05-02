@@ -5,7 +5,7 @@ const Client = require('../models/clients-model')
 const clients = (app, db) => {
     // Shows clients list
     app.get('/clients', (req, res) => {
-        res.json({"Clients": db.clients})
+        res.status(200).json({"Clients": db.clients})
     })
 
     // Search for individual client by name
