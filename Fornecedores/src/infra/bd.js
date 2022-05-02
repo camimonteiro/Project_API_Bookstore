@@ -2,4 +2,4 @@ const bd ={
     "fornecedor": []
 }
 
-module.exports = bd
+module.exports = bd;
