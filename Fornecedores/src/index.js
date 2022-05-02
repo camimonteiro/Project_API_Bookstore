@@ -1,18 +1,29 @@
 const express = require('express');
-const app = express();
 const cors = require('cors')
+const app = express();
+const port = 3000;
 
-//PARA IMPORTAR O BANCO DE DADOS
-const bd = require('./infra/sqlite-db');
-app.use(cors())
 
-//PARA IMPORTAR OS CONTROLLERS
-const Fornecedor = require('./controllers/fornecedor-controller')
+
+app.post('/fornecedor', function (req, resp, next){
+    resp.json({msg: 'Fornecedor inserido com sucesso!'})
+})
 
 app.use(express.json())
 
-Fornecedor(app, bd)
+app.use(cors())
 
-app.listen(3000, ()=>{
-    console.log("servidor rodando na porta 3000")
+//IMPORTANDO OS CONTROLLERS DA ENTIDADE FORNECEDORES
+const fornecedorController = require('./controllers/fornecedor-controller')
+
+// IMPORTANDO OS MODELS DA ENTIDADE FORNECEDORES
+const fornecedorModel = require('./models/fornecedor-model')
+
+//IMPORTANDO O BANCO DE DADOS DA ENTIDADE FORNECEDORES
+const bdSqlite = require('./infra/sqlite-db')
+
+fornecedorController(app, bdSqlite)
+
+app.listen(port, ()=>{
+    console.log("Servidor da Livraria Macabéa rodando na porta 3000")
 })
