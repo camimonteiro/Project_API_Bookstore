@@ -19,14 +19,14 @@ class VendaController {
         }
             //cadastrar vendas 
     static cadastrarVendas = (req, res) => {
-    let vendaNova = new vendas(req.body);
+    let venda = new vendas(req.body);
 
-    vendaNova.save((err) => {
+    venda.save((err) => {
     
         if(err) {
             res.status(500).send({message: `${err.message} - falha a ocadastrar venda.`})
         } else {
-            res.status(201).send
+            res.status(201).send({message: "venda ok"})
         }
 })
 }
