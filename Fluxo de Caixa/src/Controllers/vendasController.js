@@ -26,7 +26,7 @@ class VendaController {
         if(err) {
             res.status(500).send({message: `${err.message} - falha a ocadastrar venda.`})
         } else {
-            res.status(201).send({message: "venda ok"})
+            res.status(201).send({message: "venda cadastrada com sucesso"})
         }
 })
 }
