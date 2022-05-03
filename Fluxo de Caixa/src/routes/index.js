@@ -1,5 +1,6 @@
 import express from "express";
-import vendas from "../routes/vendasRoutes.js"
+import vendas from "../routes/vendasRoutes.js";
+import aluguel from "../routes/aluguelRoutes.js";
 
 
 const routes = (app) => {
@@ -9,7 +10,8 @@ const routes = (app) => {
 
 app.use(
     express.json(),
-    vendas
+    vendas,
+    aluguel
 )
 }
 
