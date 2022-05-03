@@ -1,14 +1,14 @@
 import express from "express"
-import VendaController from "../Controllers/vendasController.js";
+import VendasController from "../Controllers/vendasController.js";
 
 const router = express.Router();
 
 router
-    .get("/vendas", VendaController.listarVendas)
-    .get("/vendas:id", VendaController.listarVendasId)
-    .post("/vendas", VendaController.cadastrarVendas)
-    .put("/vendas/:id", VendaController.atualizarVendas)
-    .delete("/vendas/:id", VendaController.excluirVendas)
+    .get("/vendas", VendasController.listarVendas)
+    .get("/vendas:id", VendasController.listarVendasId)
+    .post("/vendas", VendasController.cadastrarVendas)
+    .put("/vendas/:id", VendasController.atualizarVendas)
+    .delete("/vendas/:id", VendasController.excluirVendas)
 
 export default router;
 
