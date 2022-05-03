@@ -63,7 +63,7 @@ Ferramentas de testes<br>
 
 
 
-Status do Desafio: Concluido ✔
+Status do Desafio: Concluido ✔<br><br>
 Funcionalidades
 
 [✔] Cadastro de categorias.<br>
