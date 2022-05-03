@@ -5,7 +5,7 @@ import aluguel from "../routes/aluguelRoutes.js";
 
 const routes = (app) => {
     app.route('/').get((req, res) => {
-        res.status(200).send({Entidade: "Fluxo de caixas"})
+        res.status(200).send({Mensagem: "Bem vindos ao Fluxo de Caixas Da Livraria"})
  });
 
 app.use(
