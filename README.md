@@ -1,6 +1,6 @@
 Olá! Neste desafio foi criado uma API REST, para uma livraria
 
-                            Livraria 
+                            Livraria Macabé
 
 
 
@@ -11,26 +11,25 @@ Olá! Neste desafio foi criado uma API REST, para uma livraria
 
 ## 📘 Pré-requisitos
 
--Node.Js - v. 16.13.2
--NPM - v. 8.1.2
--Express - v. 4.17.3
--Nodemon - v. 2.0.15
--Supertest - v. 6.2.2
--cors- v.2.8.5
--Mongoose- v. 6.3.1
--body-parser- v. 1.20.0",
--express"- v. 4.18.1",
--express-validator- v.2.20.8",
--fetch": v. 1.1.0",
--node-fetch": v.3.2.3",
--sqlite3- v.5.0.6"
+-Node.Js - v. 16.13.2<br>
+-NPM - v. 8.1.2<br>
+-Express - v. 4.17.3<br>
+-Nodemon - v. 2.0.15<br>
+-Supertest - v. 6.2.2<br>
+-cors- v.2.8.5<br>
+-Mongoose- v. 6.3.1<br>
+-body-parser- v. 1.20.0",<br>
+-express"- v. 4.18.1",<br>
+-express-validator- v.2.20.8",<br>
+-fetch": v. 1.1.0",<br>
+-node-fetch": v.3.2.3",<br>
+-sqlite3- v.5.0.6"<br>
  
 
 
  Iniciando da aplicação
 
 	
-
 	 - Clone o repositório: https://github.com/camimonteiro/Project_API_Bookstore
 	 - Instale os pacotes necessários:
 
@@ -50,41 +49,40 @@ Caso necessário, a porta poderá ser alterada no arquivo server.js
 
 Tecnologias utilizadas:
 
-BACK END:
-    Java Script
-    Node JS
+BACK END:<br>
+    Java Script<br>
+    Node JS<br>
 
-Banco de Dados
-    Sequelize
-    SQLITE
-    MongoDB 
+Banco de Dados<br>
+    Sequelize<br>
+    SQLITE<br>
+    MongoDB <br>
 
-Ferramentas de testes
-    Insomnia
+Ferramentas de testes<br>
+    Insomnia<br>
 
 
 
 Status do Desafio: Concluido ✔
 Funcionalidades
 
-[✔] Cadastro de categorias
-[✔] Listagem de categorias
-[✔] Listagem de categorias por idCategoria
-[✔] Alteração de categorias por idCategoria
-[✔] Remoção de categorias por idCategoria
-
+[✔] Cadastro de categorias.<br>
+[✔] Listagem de categorias.<br>
+[✔] Listagem de categorias por idCategoria.<br>
+[✔] Alteração de categorias por idCategoria.<br>
+[✔] Remoção de categorias por idCategoria.<br>
 
 👉 Rotas da aplicação para uma Venda
 
-PPOST /categoria/cadastrar?categoria=1: A rota deve receber os atributos no corpo da requisição.
+PPOST /categoria/cadastrar?categoria=1: A rota deve receber os atributos no corpo da requisição.<br>
 
-GET /categoria/1: Rota que lista uma categoria pelo seu id.
+GET /categoria/1: Rota que lista uma categoria pelo seu id.<br>
 
-GET /categoria: Rota que lista todos as categorias, certifique-se de que todos os atributos estarão na resposta.
+GET /categoria: Rota que lista todos as categorias, certifique-se de que todos os atributos estarão na resposta.<br>
 
-PUT /categoria/:id: Rota que altera o categoria, pelo ID definido.
+PUT /categoria/:id: Rota que altera o categoria, pelo ID definido.<br>
 
-DELETE /categoria/:id: A rota deve deletar a categoria com o id de uma categoria presente nos parâmetros da rota.
+DELETE /categoria/:id: A rota deve deletar a categoria com o id de uma categoria presente nos parâmetros da rota.<br>
 
 
 
