@@ -69,8 +69,6 @@
  
  - Instale os pacotes necessários.
 
- - Rode os comandos a seguir no terminal ou PoweShell:
-
         npm install
 
  - Inicie o servidor:
