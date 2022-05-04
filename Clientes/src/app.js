@@ -8,4 +8,4 @@ routes(app)
 
 app.listen(port, () => console.log(`servidor está rodando na porta ${port}`))
 
-module.exports = app
+module.exports = app;
