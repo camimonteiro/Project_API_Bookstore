@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "6271d35dfcc85c69df8bc857"
+  },
+  "categoria": "Editora",
+  "razaoSocial": "Editora Antofágica Ltda",
+  "nomeFantasia": "Antofágica",
+  "cnpj": "32.193.802/0001-51",
+  "endereco": "Rua Gildasio Amado, 55/1805, Barra da Tijuca",
+  "cep": "22631-020",
+  "cidade": "Rio de Janeiro",
+  "estado": "RJ",
+  "email": "rafael@antofagica.com.br",
+  "telefone": "+552132688725",
+  "status": "ativa",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6271d561c51ea7e710e4f315"
+  },
+  "categoria": "Editora",
+  "razaoSocial": "Editora Rocco Ltda",
+  "nomeFantasia": "Rocco",
+  "cnpj": "42.444.703/0001-59",
+  "endereco": "Rua Evaristo da Veiga, 65/1101, Centro",
+  "cep": "20031-040",
+  "cidade": "Rio de Janeiro",
+  "estado": "RJ",
+  "email": "contato@rocco.com.br",
+  "telefone": "+552125072244",
+  "status": "ativa",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6271d770c51ea7e710e4f317"
+  },
+  "categoria": "Editora",
+  "razaoSocial": "Gmt Editores Ltda",
+  "nomeFantasia": "Sextante",
+  "cnpj": "02.310.771/0001-00",
+  "endereco": "Voluntários da Patria, 45/1401, Botafogo",
+  "cep": "22270-000",
+  "cidade": "Rio de Janeiro",
+  "estado": "RJ",
+  "email": "helena@sextante.com.br",
+  "telefone": "+552125384100",
+  "status": "ativa",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6271d868c51ea7e710e4f319"
+  },
+  "categoria": "Editora",
+  "razaoSocial": "Editora Schwarcz S.A.",
+  "nomeFantasia": "Grupo Companhia das Letras",
+  "cnpj": "55.789.390/0008-99",
+  "endereco": "Rua Bandeira Paulista, 702, cj. 32, Itaim Bibi",
+  "cep": "04532-002",
+  "cidade": "São Paulo",
+  "estado": "SP",
+  "email": "vendas@companhiadasletras.com.br",
+  "telefone": "+551137073500",
+  "status": "em negociação",
+  "__v": 0
+}]
