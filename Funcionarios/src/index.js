@@ -1,6 +1,6 @@
 const express = require ('express')
 const app = express();
-const port = 3030;
+const port = 3000;
 
 // IMPORTANDO O CONTROLLER
 const funcionario = require('./controllers/funcionario-controller')
