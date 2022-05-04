@@ -83,13 +83,13 @@ Caso necessário, a porta poderá ser alterada no arquivo server.js
 <hr/>
 
 ## 🛠️ Tecnologias utilizadas:
-  - BACK END:<br>
+  - Back-end:<br>
     - Java Script<br>
     - Node JS<br>
 
   - Banco de Dados:<br>
     - Sequelize<br>
-    - SQLITE<br>
+    - SQLite<br>
     - MongoDB <br>
 
   - Ferramentas de testes:<br>
