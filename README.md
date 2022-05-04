@@ -1,6 +1,6 @@
 Olá! Neste desafio foi criado uma API REST, para uma livraria
 
-                            Livraria Macabé
+                            Livraria Macabéa
 
 
 
