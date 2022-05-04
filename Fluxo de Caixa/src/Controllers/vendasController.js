@@ -8,15 +8,15 @@ class VendaController {
     })}
         //listar vendas por id 
         static listarVendasId = (req, res) => {
-            const id = req.params.id;
-        
-            autores.findById(id, (err, vendas) => {
-              if(err) {
-                res.status(400).send({message: `${err.message} - Id do Autor não localizado.`})
-              } else {
-                res.status(200).send(vendas);}
-            })
-        }
+                const id = req.params.id;
+                vendas.findById(id, (err, vendas) => {
+                if(err) {
+                res.status(400).send({message: `${err.message} - Vendas não localizada.`})
+                } else {
+                res.status(200).send(vendas);
+            }
+        })
+      }
             //cadastrar vendas 
     static cadastrarVendas = (req, res) => {
     let venda = new vendas(req.body);

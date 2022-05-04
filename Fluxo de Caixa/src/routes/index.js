@@ -6,7 +6,7 @@ import estoque from "../routes/estoqueRoutes.js";
 
 const routes = (app) => {
     app.route('/').get((req, res) => {
-        res.status(200).send({Mensagem: "Bem vindos ao Fluxo de Caixas Da Livraria Macabéa"})
+        res.status(200).send({Mensagem: "📚 Bem vindos ao Fluxo de Caixas Da Livraria Macabéa 📚" })
  });
 
 app.use(

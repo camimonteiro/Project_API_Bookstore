@@ -10,7 +10,7 @@ class AluguelController {
         static listarAluguelId = (req, res) => {
             const id = req.params.id;
         
-            autores.findById(id, (err, aluguel) => {
+            aluguel.findById(id, (err, aluguel) => {
               if(err) {
                 res.status(400).send({message: `${err.message} - Id do Aluguel não localizado.`})
               } else {

@@ -5,7 +5,7 @@ const router = express.Router();
 
 router
     .get("/estoque", EstoqueController.listarEstoque)
-    .get("/estoque:id", EstoqueController.listarEstoqueId)
+    .get("/estoque/:id", EstoqueController.listarEstoqueId)
     .post("/estoque", EstoqueController.cadastrarEstoque)
     .put("/estoque/:id", EstoqueController.atualizarEstoque)
     .delete("/estoque/:id", EstoqueController.excluirEstoque)
